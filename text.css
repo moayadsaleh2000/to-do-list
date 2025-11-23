@@ -70,7 +70,7 @@ body {
 
 .rTask h4 {
   font-size: 20px;
-  margin-right: 2px;
+  margin-right: 7px;
   margin-bottom: 0;
   text-align: end;
   color: #1d3557;
@@ -80,12 +80,14 @@ body {
   font-size: 10px;
   margin-top: 3px;
   color: #457b9d;
+  margin-right: 7px;
 }
 
 .rTask i {
   font-size: 10px;
   margin-left: 3px;
   color: #1d3557;
+  margin-right: 7px;
 }
 
 .ltask {
@@ -132,4 +134,36 @@ body {
 
 .rTaska .but1:hover {
   background: #f4a261;
+}
+
+@media (max-width: 1420px) {
+  .head,
+  .task,
+  .done {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .head,
+  .task,
+  .done {
+    width: 500px;
+  }
+}
+
+@media (max-width: 450px) {
+  .head,
+  .task,
+  .done {
+    width: 310px;
+  }
+}
+
+@media (max-width: 380px) {
+  .head,
+  .task,
+  .done {
+    width: 260px;
+  }
 }
